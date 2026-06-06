@@ -13,6 +13,7 @@ test("Login to page and validate the dropdown and radio button",async({page})=>{
     const popup=page.locator("#okayBtn");
     const checkbox=page.locator("#terms");
     
+    
     //Actions method
     await username.fill("rahulshettyacademy");
     await password.fill("Learning@830$3mK2");
