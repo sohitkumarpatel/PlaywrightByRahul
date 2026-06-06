@@ -25,10 +25,10 @@ test("Login to page and validate the dropdown and radio button",async({page})=>{
 
     await checkbox.check();
     expect(await checkbox).toBeChecked();
-    await page.waitForTimeout(5000);
+   // await page.waitForTimeout(5000);
     await checkbox.uncheck();
     expect(await checkbox.isChecked()).toBeFalsy();
-    await page.waitForTimeout(5000);
+   // await page.waitForTimeout(5000);
 
     
     //await page.pause();

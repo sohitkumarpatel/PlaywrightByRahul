@@ -5,3 +5,6 @@ node_modules/
 /playwright-report/
 /blob-report/
 /playwright/.cache/
+/tests/Assignment1.spec.js
+/test/Auth.js
+/tests/MyFirst.spec.js
